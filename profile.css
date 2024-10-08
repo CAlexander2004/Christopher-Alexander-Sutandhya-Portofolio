@@ -1,0 +1,671 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-image: url('https://e1.pxfuel.com/desktop-wallpaper/754/424/desktop-wallpaper-backgrounds-hitam-keren-background-keren.jpg');
+    background-size: cover; 
+    background-position: center;
+    margin: 0;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+    margin: 0;
+}
+
+img{
+    display: flex;
+    height: 70px;
+    border-radius: 20px;
+    align-items: center;
+    padding-left: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+ul{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    padding-right: 30px;
+}
+
+li{
+    display: flex;
+    column-gap: 20px;
+}
+
+.navigation-menu{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    font-size: 16px;
+    text-decoration: bold;
+    width: 100%;
+    justify-content: space-between; 
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);   
+}
+
+.navigation-link i{
+    font-size: 20px;
+    column-gap: 30px;
+    padding-right: 20px;
+}
+
+.navigation-item{
+    justify-content: center;
+    margin-left: auto;
+    align-items: center;
+    display: flex;
+}
+
+.header{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    z-index: 9999;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.navigation-link:hover{
+    text-decoration: underline;
+}
+
+.sign-in-account{
+    position: relative;
+}
+
+.sign-in-account button{
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    background-color: black;
+    border-radius: 30px;
+    padding: 5px 15px;
+    margin-left: auto;
+}
+
+.sign-in-account button:hover{
+    text-decoration: underline;
+}
+
+.sign-in-account i{
+    font-size: 30px;
+    margin-left: auto;
+    color: #fff;
+}
+
+nav {
+    position: relative;
+    background-color: black;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+    display: block;
+    margin: 8px 22px 8px 22px;
+    overflow: hidden;
+    width: 100%; 
+    margin: 0;
+    padding: 0;
+}
+
+.sign-in-account{
+    display: flex;
+    align-items: right;
+    margin-left: auto; 
+    text-align: right;
+}
+
+/* Footer */
+footer{
+    position:relative;
+   left:0px;
+   bottom:0px;
+   height:auto;
+   width:100%;
+   background-color: transparent;
+   backdrop-filter: blur(15px);
+   bottom: 0;
+   margin-top: 15px;
+}
+
+.main-footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.left-footer{
+    margin-right: auto;
+    margin-left: 10px;
+}
+
+.right-footer{
+    margin-left: auto;
+    margin-right: 40px;
+    padding-left: 20px;
+}
+
+.center-footer{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.info-left{
+    color: white;
+    text-align: left;
+    width: 100%;
+}
+
+.info-right{
+    color: #fff;
+    text-align: left;
+    width: 100%;
+}
+
+.info-center{
+    color:#fff;
+    text-align: center;
+    width: 100%;
+    padding-top: 5px;
+    border-top: 1px solid white;
+}
+
+.right-footer i{
+    font-size: 23px;
+    padding-right: 10px;
+}
+
+/* Main Content */
+/* About Me */
+main{
+    flex: 1;
+    margin-top: 65px;
+}
+
+.about-me{
+    justify-content: center;
+    text-align: center;
+    font-family: 'Poppins';
+    color: #fff;
+}
+
+.main-profile{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.inside-box{
+    display: flex;
+    background: transparent;
+    backdrop-filter: blur(15px);
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.my-info{
+    color: #fff;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 40px 20px 0px;
+}
+
+.profile-picture{
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    padding-left: 20px;
+}
+
+.profile-picture img{
+    border-radius: 2px;
+    width: 150px;
+    height: 200px;
+    margin-top: 65px;
+    margin-right: 40px;
+}
+
+.right-inside-box{
+    font-family: 'Poppins' ;
+    color: #fff;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 540px;
+    height: auto;
+    background: transparent;
+    backdrop-filter: blur(15px);
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.title h1{
+    font-size: 24px;
+}
+
+.description{
+    font-size: 16px;
+    text-align: justify;
+}
+
+.personal-skill h1{
+    justify-content: center;
+    text-align: center;
+    font-family: 'Poppins';
+    color: #fff;
+}
+
+/* Untuk Personal Skill 1 */
+.skill-1 i{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.skill-1 h3{
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.skill-1 p{
+    color: #fff;
+    text-align: center;
+}
+
+.skill-1{
+    width: 250px;
+    background: transparent;
+    backdrop-filter: blur(15px);
+    height: 175px;
+    padding: 30px 30px 30px 30px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+}
+
+.main-skill{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    gap: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+/* Untuk Personal Skill 2 */
+.skill-2 i{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.skill-2 h3{
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.skill-2 p{
+    color: #fff;
+    text-align: center;
+}
+
+.skill-2{
+    width: 250px;
+    background: transparent;
+    backdrop-filter: blur(15px);
+    height: 175px;
+    padding: 30px 30px 30px 30px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    margin-left: 20px;
+}
+
+/* Untuk Personal SKill 3 */
+.skill-3 i{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.skill-3 h3{
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.skill-3 p{
+    color: #fff;
+    text-align: center;
+}
+
+.skill-3{
+    width: 250px;
+    background: transparent;
+    backdrop-filter: blur(15px);
+    height: 175px;
+    padding: 30px 30px 30px 30px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    margin-left: 20px;
+}
+
+/* Untuk Personal Skill 4 */
+.skill-4 i{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.skill-4 h3{
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.skill-4 p{
+    color: #fff;
+    text-align: center;
+}
+
+.skill-4{
+    width: 250px;
+    background: transparent;
+    backdrop-filter: blur(15px);
+    height: 175px;
+    padding: 30px 30px 30px 30px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    margin-left: 20px;
+}
+
+/* Untuk Skill 5 */
+.skill-5 i{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill-5 h3{
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.skill-5 p{
+    color: #fff;
+    text-align: center;
+}
+
+.skill-5{
+    width: 250px;
+    background: transparent;
+    backdrop-filter: blur(15px);
+    height: 175px;
+    padding: 30px 30px 30px 30px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    margin-left: 20px;
+}
+
+/* Untuk Skill 6 */
+.skill-6 i{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.skill-6 h3{
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.skill-6 p{
+    color: #fff;
+    text-align: center;
+}
+
+.skill-6{
+    width: 250px;
+    background: transparent;
+    backdrop-filter: blur(15px);
+    height: 175px;
+    padding: 30px 30px 30px 30px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    margin-left: 20px;
+}
+
+/* Untuk Skill 7 */
+.skill-7 i{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.skill-7 h3{
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.skill-7 p{
+    color: #fff;
+    text-align: center;
+}
+
+.skill-7{
+    width: 250px;
+    background: transparent;
+    backdrop-filter: blur(15px);
+    height: 175px;
+    padding: 30px 30px 30px 30px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    margin-left: 20px;
+}
+
+/* Work Skill */
+.work-skill h1{
+    justify-content: center;
+    text-align: center;
+    font-family: 'Poppins';
+    color: #fff;
+}
+
+/* Untuk Personal Skill Container */
+.personal-skill-container{
+    background: transparent;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+    width: auto;
+    height: auto;
+    margin-top: 40px;
+}
+
+.work-skill-container{
+    background: transparent;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+    width: auto;
+    height: auto;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+/* Untuk certifications */
+.certifications-container{
+    background: transparent;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+    width: auto;
+    height: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.certification{
+    display: flex;
+}
+
+.image-certif{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.image-certif img{
+    width: auto;
+    border-radius: 0px;
+}
+
+.certification h1{
+    color: #fff;
+    font-family: 'Poppins';
+    font-size: 24px;
+}
+
+.certification h3{
+    color: #fff;
+     font-family: 'Poppins';
+}
+
+.detail-certification{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.detail-certification form{
+    padding-bottom: 20px;
+}
+
+.detail-certification button{
+    background: linear-gradient(#002032 0%, #00A3FF 71%, #00A3FF 100%);
+    color: #fff;
+    border-radius: 30px;
+    padding: 20px 40px 20px 40px;
+    font-size: 20px;
+}
+
+.detail-certification button:hover{
+    box-shadow: 0 0 40px rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.our-partner{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.our-partner h1{
+    color: #fff;
+    text-align: center;
+}
+
+.gambar-berjalan{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.all-logo{
+    display: flex;
+    padding: 20px 20px 20px 20px;
+    width: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gambar-berjalan img{
+    border-radius: 0px;
+    padding-left: 30px;
+}
+
+.my-info a:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,273 @@
+body{
+    background-image: url('https://e1.pxfuel.com/desktop-wallpaper/754/424/desktop-wallpaper-backgrounds-hitam-keren-background-keren.jpg');
+    background-size: cover; 
+    background-position: center;
+    margin: 0;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+    margin: 0;
+}
+
+img{
+    display: flex;
+    height: 70px;
+    border-radius: 20px;
+    align-items: center;
+    padding-left: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+ul{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    padding-right: 30px;
+}
+
+li{
+    display: flex;
+    column-gap: 20px;
+}
+
+.navigation-menu{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    font-size: 16px;
+    text-decoration: bold;
+    width: 100%;
+    justify-content: space-between; 
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.navigation-link i{
+    font-size: 20px;
+    column-gap: 30px;
+    padding-right: 20px;
+}
+
+.navigation-item{
+    justify-content: center;
+    margin-left: auto;
+    align-items: center;
+    display: flex;
+}
+
+.header{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    z-index: 9999;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.navigation-link:hover{
+    text-decoration: underline;
+}
+
+.sign-in-account{
+    position: relative;
+}
+
+.sign-in-account button{
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    background-color: black;
+    border-radius: 30px;
+    padding: 5px 15px;
+    margin-left: auto;
+}
+
+.sign-in-account button:hover{
+    text-decoration: underline;
+}
+
+.sign-in-account i{
+    font-size: 30px;
+    margin-left: auto;
+    color: #fff;
+}
+
+nav {
+    position: relative;
+    background-color: black;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+    display: block;
+    margin: 8px 22px 8px 22px;
+    overflow: hidden;
+    width: 100%; 
+    margin: 0;
+    padding: 0;
+}
+
+.sign-in-account{
+    display: flex;
+    align-items: right;
+    margin-left: auto; 
+    text-align: right;
+}
+
+footer{
+    position:relative;
+   left:0px;
+   bottom:0px;
+   height:auto;
+   width:100%;
+   background-color: transparent;
+   backdrop-filter: blur(15px);
+   bottom: 0;
+   margin-top: 15px;
+}
+
+.main-footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.left-footer{
+    margin-right: auto;
+    margin-left: 10px;
+}
+
+.right-footer{
+    margin-left: auto;
+    margin-right: 40px;
+    padding-left: 20px;
+}
+
+.center-footer{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.info-left{
+    color: white;
+    text-align: left;
+    width: 100%;
+}
+
+.info-right{
+    color: #fff;
+    text-align: left;
+    width: 100%;
+}
+
+.info-center{
+    color:#fff;
+    text-align: center;
+    width: 100%;
+    padding-top: 5px;
+    border-top: 1px solid white;
+}
+
+.right-footer i{
+    font-size: 23px;
+    padding-right: 10px;
+}
+
+main{
+    flex: 1;
+    margin-top: 65px;
+}
+
+/* main */
+.title{
+    font-family: Poppins;
+    font-size: 20px;
+    color: #fff;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.achivement-1{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-family: Poppins;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    padding: 15px 15px 0px 15px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.achivement-1 img{
+    display: flex;
+    border-radius: 0px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.description{
+    padding: 15px 15px 15px 15px;
+    text-align: justify;
+}
+
+.description h3{
+    text-align: center;
+}
+
+.description h3{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.certif button{
+    background: linear-gradient(#002032 0%, #00A3FF 71%, #00A3FF 100%);
+    color: #fff;
+    border-radius: 30px;
+    padding: 20px 40px 20px 40px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.certif button:hover{
+    box-shadow: 0 0 40px rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.certif a{
+    color: #fff;
+    font-size: 18px;
+}
+
+.certif a:hover{
+    text-decoration: underline;
+}
+
+.certif{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+}
